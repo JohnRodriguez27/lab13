@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="styleslab13.css">
+</head>
+
+<body>
+    <header>
+        <h1>INFORMACION PERSONAL</h1>
+    </header>
+    <div class="contenedor">
+        <img src="fotodeperfil.png" alt="Foto de perfil" width="200" height="200">
+        <fieldset>
+            <legend>
+                <h2>Datos personales</h2>
+            </legend>
+            <p>Nombre: John Rodriguez</p>
+            <p>Edad: 24 años</p>
+            <p>Fecha de nacimiento: 27 de Septiembre de 2000</p>
+            <p>Correo electrónico: John.rodriguez.ttc.644@unilibre.edu.co</p>
+            <legend>
+                <h2>Perfil profesional</h2>
+            </legend>
+            <p>Mi nombre es John Rodriguez, tengo 24 años de edad, Estudiante de Matematicas pura en la universidad
+                del atlantico, Experiencia en programacion con JAVA y Python a nivel intermedio y futuro programador
+                e investigador en Ciencia de datos</p>
+        </fieldset>
+    </div>
+    <div class="ContenedorPrincipal">
+
+        <div class="contenedor2">
+            <fieldset>
+                <legend>
+                    <h2>Habilidades</h2>
+                </legend>
+                <ul>
+                    <li>Programación en Java y Python</li>
+                    <li>Resolución de problemas matemáticos complejos</li>
+                    <li>Trabajo en equipo y colaboración</li>
+                    <li>Comunicación efectiva</li>
+                </ul>
+                <legend>
+                    <h2>Intereses</h2>
+                </legend>
+                <ul>
+                    <li>Desarrollo de software</li>
+                    <li>Investigación en ciencias de datos</li>
+                    <li>Matemáticas puras y aplicadas</li>
+                    <li>Aprendizaje continuo y superación personal</li>
+                </ul>
+                <legend>
+                    <h2>Pasatiempos</h2>
+                </legend>
+                <ol>
+                    <li>Videojuesgos y Series</li>
+                    <li>Practicar Balonces al aire libre</li>
+                    <li>Diseño grafico</li>
+                    <li>Explorar nuevas tecnologías y tendencias en programación</li>
+                </ol>
+            </fieldset>
+        </div>
+
+        <div class="contenedor3">
+            <fieldset>
+                <legend>
+                    <h2>Horario Semanal</h2>
+                </legend>
+                <table border="1" cellspacing="0" cellpadding="8">
+                    <thead>
+                        <tr>
+                            <th>Días de la Semana</th>
+                            <th>Actividades</th>
+                            <th>Horas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>Universidad</td>
+                            <td>6:30 AM - 12:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>Adelantar actividades</td>
+                            <td>10:00 AM - 5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>Universidad</td>
+                            <td>6:30 AM - 4:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>Universidad</td>
+                            <td>10:30 AM - 4:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>Estudiar programacion basica</td>
+                            <td>6:00 PM - 10:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h2>Formulario de contacto</h2>
+                </legend>
+                <form action="#" method="post">
+                    <p>
+                        <label for="name">Nombre completo:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="mail">Correo electrónico:</label><br>
+                        <input type="email" id="mail" name="mail" required>
+                    </p>
+                    <p>
+                        <label for="solicitud">Solicitud:</label><br>
+                        <textarea id="solicitud" name="solicitud" rows="4" cols="40" required></textarea>
+                    </p>
+                    <button onclick="validar()">Enviar</button>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/" target="_blank">github page</a>
+    </footer>
+    <script src = "validar.js"></script>
+</body>
+
+</html>
